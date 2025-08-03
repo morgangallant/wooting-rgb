@@ -1,0 +1,10 @@
+[project]
+name = "set-wooting-rgb"
+version = "0.1.0"
+description = "A tool to set the RGB color of the Wooting keyboard by polling a URL."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.32.4",
+    "wooting-rgb>=0.0.1",
+]
