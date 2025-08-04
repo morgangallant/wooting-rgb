@@ -9,3 +9,17 @@ that endpoint with the following format:
     "blue": 127
 }
 ```
+
+#### Configuring to run at startup
+
+Might need to edit some file paths.
+
+```bash
+launchctl load ~/Library/LaunchAgents/software.lovely.wootingrgb.plist
+launchctl start software.lovely.wootingrgb
+```
+
+To check if things are running:
+```bash
+launchctl debug | grep lovely
+```
